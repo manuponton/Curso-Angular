@@ -10,4 +10,10 @@ export class TitulosComponent implements OnInit {
 
   ngOnInit() {}
   h1 = 'Hola soy H1';
+  nombre = 'Manuel';
+  apellido = 'Ponton';
+  alumno: any = {
+    nombre: 'Juan',
+    apellido: 'Perez'
+  };
 }
