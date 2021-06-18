@@ -16,4 +16,7 @@ export class TitulosComponent implements OnInit {
     nombre: 'Juan',
     apellido: 'Perez'
   };
+  imagen =
+    'https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png';
+  nuevoInput = 'Hola soy un Input';
 }
