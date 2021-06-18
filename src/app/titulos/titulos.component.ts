@@ -19,4 +19,10 @@ export class TitulosComponent implements OnInit {
   imagen =
     'https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png';
   nuevoInput = 'Hola soy un Input';
+  correo = '';
+  password = '';
+  ingresar() {
+    console.log(this.correo);
+    console.log(this.password);
+  }
 }

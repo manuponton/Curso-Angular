@@ -5,5 +5,19 @@
 <h2>Hola soy un H2</h2>
 <h3>Hola soy un H3</h3>
 <h4>Hola soy {{nombre}} {{apellido}}</h4>
+<label for="">Correo
+<input type="text" [(ngModel)]="correo">
+</label>
+<label for="">
+  Contraseña 
+<input type="password" [(ngModel)]="password">
+</label>
+<button (click)="ingresar()" >Iniciar</button>
 <h4>Yo soy el alumno {{alumno.nombre}} {{alumno.apellido}}</h4>
+<input type="text" [(ngModel)]="nuevoInput">
+<h1>{{nuevoInput}}</h1>
+
+
+
 <img [src]="imagen" [alt]="nuevoInput" width="60%">
+<br>
